@@ -1,0 +1,35 @@
+# OSによる不要ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 環境設定ファイル（秘密情報など）
+.env
+.venv
+*.env.local
+*.env.*
+
+# ビルド・依存関係の成果物
+dist/
+build/
+out/
+coverage/
+
+# 依存ライブラリ
+node_modules/
+vendor/
+
+# ログや一時ファイル
+*.log
+*.tmp
+*.bak
+
+# キャッシュ
+__pycache__/
+*.py[cod]
+.cache/
